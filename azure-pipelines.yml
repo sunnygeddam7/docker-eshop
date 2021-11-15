@@ -6,9 +6,7 @@
 trigger:
 - admin-page
 
-pool: 
-  name: dell
-  vmImage: INSANE
+pool: dell
 
 
 variables:
