@@ -6,7 +6,7 @@
 trigger:
 - admin-page
 
-pool: INSANE
+pool: dell
 
 variables:
   solution: '**/*.sln'
