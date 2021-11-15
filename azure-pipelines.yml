@@ -9,7 +9,7 @@ trigger:
 pool: 
   name: sunny
   demands:
-    - Agent.Version -gtVersion 2.144.0
+    - visualstudio
 
 
 variables:
