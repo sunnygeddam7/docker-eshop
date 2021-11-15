@@ -9,7 +9,6 @@ trigger:
 pool: 
   name: sunny
   demands:
-    - myCustomCapability   
     - Agent.Version -gtVersion 2.144.0
 
 
