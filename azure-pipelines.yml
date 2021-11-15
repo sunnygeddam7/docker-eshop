@@ -6,10 +6,8 @@
 trigger:
 - admin-page
 
-pool: 
-  name: sunny
-  demands:
-    - visualstudio
+pool:  sunny
+  - agent.name -equals cmd
 
 
 variables:
