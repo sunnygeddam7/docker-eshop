@@ -6,7 +6,10 @@
 trigger:
 - admin-page
 
-pool: dell
+pool: 
+  name: INSANE
+  demands:
+    - agent.name -equals dell
 
 variables:
   solution: '**/*.sln'
