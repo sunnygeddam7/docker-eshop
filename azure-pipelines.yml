@@ -7,10 +7,10 @@ trigger:
 - admin-page
 
 pool: 
-  name: dell
+  name: sunny
   demands:
     - myCustomCapability   
-    - Agent.Version -equals 2.195.0
+    - Agent.Version -gtVersion 2.144.0
 
 
 variables:
