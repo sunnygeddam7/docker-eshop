@@ -6,8 +6,10 @@
 trigger:
 - admin-page
 
-pool:
-  vmImage: 'Ubuntu-latest'
+pool: 
+  name: dell
+  demands:
+    - agent.name -equals INSANE
 
 variables:
   solution: '**/*.sln'
