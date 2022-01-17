@@ -10,7 +10,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
 WORKDIR /app
 
-COPY *.sln .
+COPY **/*.sln .
 COPY . .
 WORKDIR /app/src/Web
 RUN dotnet restore
